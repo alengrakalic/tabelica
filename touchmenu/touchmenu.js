@@ -3,11 +3,6 @@
 * Tabelica.com
 * touchmenu.js
 *
-* requires specific structure
-*	nav 
-*		ul
-*			li
-*
 
 */
 
@@ -125,8 +120,11 @@
 	
 	// self initializing plugin		
 	$(function(){
-		$('[data-touchmenu]').each(function(){				
-			$(this).touchmenu( $(this).data('touchmenu-options') );		
+		$('[data-touchmenu]').each(function(){	
+			var elem = $(this);
+			var opts = elem.data('touchmenu-options') || {};	
+			if( elem.data('touchmenu-breakpoint') ) opts.breakpoint = elem.data('touchmenu-breakpoint');
+			elem.touchmenu(opts);			
 		});
 	});
 	

@@ -282,28 +282,32 @@
 	
 	/* second level */
 	
-		.main_nav li:hover>ul{display:block;}
-		.main_nav ul ul{
+		.main_nav_list li:hover>ul{display:block;}
+		.main_nav_list ul{
 			position:absolute;
-			left:0;
+			left:-20px;
 			top:40px;
 			width:200px;	
 			background:#314559;
 			display:none;
 			z-index:1000;
 			font-size:.85em;
+			padding:20px 0;
 			}		
-		.main_nav ul ul li,
-		.main_nav ul ul >a{
+		.main_nav ul ul li{
+			margin:0;
+			float:none;
+			height:auto;
+			}		
+		.main_nav ul ul a{
 			float:none;
 			display:block;
+			line-height:1.3em;
 			height:auto;
-			line-height:1.2em;
-			margin:0;
 			text-transform:none;
-			}
-		.main_nav ul ul li>a{
-			padding:10px 15px;
+			font-size:.9em;
+			font-weight:400;
+			padding:10px 20px;
 			}
 		
 	/* // second level */	

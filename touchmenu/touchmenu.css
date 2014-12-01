@@ -10,7 +10,7 @@
 	-ms-transition:0.3s ease-out;
 	transition:0.3s ease-out;	
 	}
-.touchmenu_open .container{left:300px;}	
+.touchmenu_open .container{left:260px;}	
 	
 .touchmenu_toggler{
 	display:block;
@@ -45,7 +45,7 @@
 	text-indent:0;
 	text-align:center;
 	}	
-.touchmenu_open .touchmenu_toggler{left:305px;}
+.touchmenu_open .touchmenu_toggler{left:265px;}
 .touchmenu_open .touchmenu_toggler:after{content:'\e812';}	
 	
 .touchmenu_nav{
@@ -53,7 +53,7 @@
 	top:0;
 	left:0;
 	bottom:0;
-	width:300px;
+	width:260px;
 	height:100%;
 	background:#314559;
 	color:#fff;
@@ -65,7 +65,7 @@
 	transition:0.3s ease-out;	
 	}
 
-.touchmenu_closed .touchmenu_nav{left:-300px;}
+.touchmenu_closed .touchmenu_nav{left:-260px;}
 .touchmenu_open .touchmenu_nav{left:0;}		
 	
 .touchmenu_list{padding:1em 0;margin:0;}
@@ -99,9 +99,9 @@
 	position:absolute;
 	left:0;
 	top:0;
-	width:24px;
-	height:24px;			
-	line-height:24px;	
+	width:32px;
+	height:32px;			
+	line-height:32px;	
 	font-family:'Icons' !important;
 	font-size:20px;			
 	-webkit-font-smoothing:antialiased;
