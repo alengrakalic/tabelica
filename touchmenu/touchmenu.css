@@ -1,0 +1,135 @@
+.touchmenu_open, .touchmenu_closed{overflow-x:hidden;} /* class names assigned to the body */
+.touchmenu_open .container,
+.touchmenu_closed .container{ /* descendant selector to target the content wrapper */
+	position:relative;
+	top:0;
+	left:0;
+	-webkit-transition:0.3s ease-out;	
+	-o-transition:0.3s ease-out;
+	-moz-transition:0.3s ease-out;
+	-ms-transition:0.3s ease-out;
+	transition:0.3s ease-out;	
+	}
+.touchmenu_open .container{left:300px;}	
+	
+.touchmenu_toggler{
+	display:block;
+	position:absolute;
+	top:5px;
+	left:5px;
+	z-index:11;
+	width:32px;
+	height:32px;
+	text-indent:-8000px;
+	cursor:pointer;
+	-webkit-transition:0.3s ease-out;	
+	-o-transition:0.3s ease-out;
+	-moz-transition:0.3s ease-out;
+	-ms-transition:0.3s ease-out;
+	transition:0.3s ease-out;	
+	}
+.touchmenu_toggler:after{
+	content:'\e811';	
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	width:32px;
+	height:32px;			
+	line-height:32px;	
+	font-family:'Icons' !important;
+	font-size:24px;			
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;		
+	color:#fff;
+	text-indent:0;
+	text-align:center;
+	}	
+.touchmenu_open .touchmenu_toggler{left:305px;}
+.touchmenu_open .touchmenu_toggler:after{content:'\e812';}	
+	
+.touchmenu_nav{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	width:300px;
+	height:100%;
+	background:#314559;
+	color:#fff;
+	text-align:left;
+	-webkit-transition:0.3s ease-out;	
+	-o-transition:0.3s ease-out;
+	-moz-transition:0.3s ease-out;
+	-ms-transition:0.3s ease-out;
+	transition:0.3s ease-out;	
+	}
+
+.touchmenu_closed .touchmenu_nav{left:-300px;}
+.touchmenu_open .touchmenu_nav{left:0;}		
+	
+.touchmenu_list{padding:1em 0;margin:0;}
+.touchmenu_list li{
+	list-style:none;
+	margin:0;
+	position:relative;
+	}	
+.touchmenu_list a{
+	display:block;
+	color:inherit;
+	padding:10px 15px;
+	}
+	
+/* submenus */
+
+.touchmenu_sub_toggler{
+	display:block;
+	position:absolute;
+	top:5px;
+	right:5px;
+	z-index:11;
+	width:24px;
+	height:24px;
+	text-indent:-8000px;
+	cursor:pointer;	
+	}
+.touchmenu_sub_toggler:after{
+	content:'\e80c';	
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	width:24px;
+	height:24px;			
+	line-height:24px;	
+	font-family:'Icons' !important;
+	font-size:20px;			
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;		
+	color:#fff;
+	text-indent:0;
+	text-align:center;
+	}	
+.touchmenu_sub_active .touchmenu_sub_toggler:after{content:'\e80f';}	
+.touchmenu_sub_list{
+	position:relative;
+	font-size:.9em;
+	max-height:0;
+	overflow:hidden;
+	background:#283A4C;
+	-webkit-transition:max-height 0.3s ease-out;	
+	-o-transition:max-height 0.3s ease-out;
+	-moz-transition:max-height 0.3s ease-out;
+	-ms-transition:max-height 0.3s ease-out;
+	transition:max-height 0.3s ease-out;	
+	}	
+.touchmenu_sub_active>.touchmenu_sub_list{
+	/* adjust max height if needed */
+	/* http://stackoverflow.com/questions/3508605/css-transition-height-0-to-height-auto */	
+	max-height:300px;	
+	-webkit-transition:max-height 0.3s ease-in;	
+	-o-transition:max-height 0.3s ease-in;
+	-moz-transition:max-height 0.3s ease-in;
+	-ms-transition:max-height 0.3s ease-in;
+	transition:max-height 0.3s ease-in;	
+	}
