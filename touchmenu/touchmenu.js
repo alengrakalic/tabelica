@@ -1,10 +1,4 @@
-/*
-
-* Tabelica.com
-* touchmenu.js
-*
-
-*/
+// touchmenu.js // (c) 2014 Alen Grakalic // tabelica.com 
 
 ;(function($){
 	
