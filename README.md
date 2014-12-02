@@ -9,26 +9,26 @@
 <p>You can pass options to the plugin using the "data" - plugin name - "options" construction as a name for another <code>data</code> attribute added to the element. i.e. <code>data-touchmenu-options</code>. This attribute should have options written in a JSON format.</p>
 <p>Here's an example of applying <code>data</code> attributes to the <code>nav</code> element in order to initialize touchmenu plugin:</p>
 <pre>
-<nav class="main_nav" data-touchmenu data-options='{"breakpoint":"800"}'>
-	<ul class="main_nav_list">
-		<li><a href="#">Home</a></li>	
-		<li><a href="#">Projects</a></li>
-		<li><a href="#">Clients</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>		
-</nav>
+&lt;nav class=&quot;main_nav&quot; data-touchmenu data-options='{&quot;breakpoint&quot;:&quot;800&quot;}'&gt;
+	&lt;ul class=&quot;main_nav_list&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; 
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Clients&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt; 
+&lt;/nav&gt;
 </pre>
 <p>Additionally, some plugins are able to read specific <code>data</code> attributes and accept values as plugin options. That is done to simplify the process of passing the commonly used plugin options.</p>
 <p>Here's an above example written with using the plugin specific <code>data</code> attribute:</p>
 <pre>
-<nav class="main_nav" data-touchmenu data-touchmenu-breakpoint="800">
-	<ul class="main_nav_list">
-		<li><a href="#">Home</a></li>	
-		<li><a href="#">Projects</a></li>
-		<li><a href="#">Clients</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>		
-</nav>
+&lt;nav class=&quot;main_nav&quot; data-touchmenu data-touchmenu-breakpoint=&quot;800&quot;&gt;
+	&lt;ul class=&quot;main_nav_list&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; 
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Clients&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt; 
+&lt;/nav&gt;
 </pre>
 <p>Eeach of the plugins comes with a simple demo page so you can see it in action.</p>
 <h1>Plugins</h1>
