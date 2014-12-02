@@ -1,5 +1,6 @@
 <h1>Overview</h1>
 <p>Touchmenu plugin is a solution for responsive navigation. The plugin is applied to your main navigation container, it creates a duplicate navigation element available for separate treatment and styling for resolutions below a certain breakpoint. </p>
+<p><a href="http://tabelica.com/touchmenu/demo.html">Demo</a> (resize the browser to see it in action)</p>
 <h1>How it Works</h1>
 <p>Let's say you have your desktop ready navigation and it's placement in the document and structure doesn't allow you to achieve the effect you wish for the smaller screen sizes. This plugin creates a duplicate of your navigation element and prepends it to the <code>body</code>. Based on a given breakpoint parameter, it toggles the visibilty of these two navigation elements: on screen resolutions below a certain breakpoint it will hide the original navigation and show the newly created, smaller resolution frendly navigation - and vice versa. </p>
 <p>The plugin takes care of the DOM element manipulation and the proper <code>class</code> attribute asignment. The positioning and transitions are done via CSS so make sure you study the CSS file well as this is where you will have to make modifications in order to make the navigation fit into your document. </p>
