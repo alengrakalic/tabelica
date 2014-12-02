@@ -21,16 +21,14 @@
 </pre>
 <p>Additionally, some plugins are able to read specific <code>data</code> attributes and accept values as plugin options. That is done to simplify the process of passing the commonly used plugin options.</p>
 <p>Here's an above example written with using the plugin specific <code>data</code> attribute:</p>
-<pre>
-&lt;nav class=&quot;main_nav&quot; data-touchmenu data-touchmenu-breakpoint=&quot;800&quot;&gt;
+<pre>&lt;nav class=&quot;main_nav&quot; data-touchmenu data-touchmenu-breakpoint=&quot;800&quot;&gt;
 	&lt;ul class=&quot;main_nav_list&quot;&gt;
 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; 
 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Clients&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt; 
-&lt;/nav&gt;
-</pre>
+&lt;/nav&gt;</pre>
 <p>Each of the plugins comes with a simple demo page so you can see it in action.</p>
 <h1>Plugins</h1>
 <ul>
