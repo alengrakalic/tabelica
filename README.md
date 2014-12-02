@@ -2,6 +2,7 @@
 <p>Tabelica is a repository of jQuery plugins I coded for my own need.</p>
 <p>In time some of those plugins outgrown me so I decided to share some of them with you. The list will grow in time as I prepare and document the code.</p>
 <p>If you have a need for a simple plugin, it doesn't hurt to request it at grakalic.com. I might find the time to code it and add it to the repository.</p>
+<p>Tabelica plugins are released under the terms of the <a href="http://en.wikipedia.org/wiki/MIT_License">MIT license</a>.</p>
 <h1>Basic how-to</h1>
 <p>If you are familiar with the basic usage of jQuery plugins then you already know what you need to use Tabelica's plugins. </p>
 <p>However, each of the plugins found here have an useful feature, and that is self initializing. What that means is that you can initiate plugin from the HTML by the use of element's <code>data</code> attributes and this is the way to do it:</p>
