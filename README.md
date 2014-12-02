@@ -3,6 +3,10 @@
 <p>In time some of those plugins outgrown me so I decided to share some of them with you. The list will grow in time as I prepare and document the code.</p>
 <p>If you have a need for a simple plugin, it doesn't hurt to request it at grakalic.com. I might find the time to code it and add it to the repository.</p>
 <p>Tabelica plugins are released under the terms of the <a href="http://en.wikipedia.org/wiki/MIT_License">MIT license</a>.</p>
+<h1>Plugins</h1>
+<ul>
+<li>Touchmenu - <a href="https://github.com/alengrakalic/tabelica/tree/master/touchmenu">git</a> | <a href="http://tabelica.com/touchmenu/demo.html">demo page</a></li>
+</ul>
 <h1>Basic how-to</h1>
 <p>If you are familiar with the basic usage of jQuery plugins then you already know what you need to use Tabelica's plugins. </p>
 <p>However, each of the plugins found here have an useful feature, and that is self initializing. What that means is that you can initiate plugin from the HTML by the use of element's <code>data</code> attributes and this is the way to do it:</p>
@@ -30,7 +34,3 @@
 	&lt;/ul&gt; 
 &lt;/nav&gt;</pre>
 <p>Each of the plugins comes with a simple demo page so you can see it in action.</p>
-<h1>Plugins</h1>
-<ul>
-<li>Touchmenu - <a href="https://github.com/alengrakalic/tabelica/tree/master/touchmenu">git</a> | <a href="http://tabelica.com/touchmenu/demo.html">demo page</a></li>
-</ul>
