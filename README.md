@@ -30,7 +30,7 @@
 	&lt;/ul&gt; 
 &lt;/nav&gt;
 </pre>
-<p>Eeach of the plugins comes with a simple demo page so you can see it in action.</p>
+<p>Each of the plugins comes with a simple demo page so you can see it in action.</p>
 <h1>Plugins</h1>
 <ul>
 <li>Touchmenu - <a href="https://github.com/alengrakalic/tabelica/tree/master/touchmenu">git</a> | <a href"http://tabelica.com/touchmenu/demo.html">demo page</a></li>
